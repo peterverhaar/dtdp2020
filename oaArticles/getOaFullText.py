@@ -15,12 +15,12 @@ from pdfminer.layout import LAParams
 import unicodedata, codecs
 from io import StringIO
 
-urls = [ 'https://openaccess.leidenuniv.nl/bitstream/handle/1887/1124/172_100.pdf?sequence=1' ]
+urls = [ 'https://openaccess.leidenuniv.nl/bitstream/handle/1887/1124/172_100.pdf' ]
 
 
 def getPDFText(pdfFilenamePath):
     retstr = StringIO()
-    parser = PDFParser(open(pdfFilenamePath,'r'))
+    parser = PDFParser(open(pdfFilenamePath,'r+b'))
     try:
         document = PDFDocument(parser)
     except Exception as e:
@@ -50,4 +50,8 @@ for file in urls:
     if response.status_code == 200:
         open( fileName , 'wb').write( response.content)
 
-    print( getPDFText(fileName) )
+    fullText = getPDFText( fileName )
+    fileNameTxt = re.sub( r'[.]pdf$' , '.txt', fileName )
+    out = open( fileNameTxt , 'w' , encoding = 'utf-8' )
+    out.write( fullText )
+    out.close()

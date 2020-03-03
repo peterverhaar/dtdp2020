@@ -1,0 +1,712 @@
+VOLUME  70,  NUMBER  8
+
+P H Y S I C AL  R E V I EW  L E T T E RS
+
+22  FEBRUARY 1993
+
+Universality in the  Random-Matrix Theory of Quantum Transport
+
+Instüuut-Lorentz,  Umversity  of Leiden, P. O. Box  9506,  SSOO  RA  Leiden,  The  Netherlands
+
+C. W. J.  Beenakker
+
+(Received  13 November 1992)
+
+A random-matrix  formula  is derived for the  variance of an  arbitrary  linear statistic on the  trans-
+mission  eigenvalues.  The  variance  is  independent  of  the  eigenvalue  density  and  has  a  universal
+dependence  on  the  symmetry  of the  matrix  ensemble.  The  formula  generalizes  the  Dyson-Mehta
+theorem  in the  statistical theory  of energy levels.  It  demonstrates  that  the  Universality  of the con-
+ductance  fluctuations  is generic for a whole class of transport  properties in mesoscopic Systems.
+
+PACS numbers:  72.10.Bg,  05.40,+j,  05.60.+w, 74.80.Fp
+
+In  the  sixties,  Wigner,  Dyson,  Mehta,  and  others de-
+veloped  random-matrix  theory  (RMT)  into  a  powerful
+tool  to  study  the  statistics of energy  levels  measured  in
+nuclear  reactions  [1,2].  It  was shown  that  the  fluctua-
+tions  in  the  energy  level  density  are  governed  by  level
+repulsion,  which depends on the  symmetry of the  Hamil-
+tonian  ensemble—but  is  independent  of the  mean  level
+density  [3-6].  This  Universality  is  at  the  origin  of  the
+remarkable success of RMT  in nuclear physics.  The  uni-
+versality of the  level  fluctuations  is expressed by the  cel-
+ebrated  Dyson-Mehta  formula  [7] for  the  variance  of  a
+linear  statistic  A  = Σηα(Εη)  on the energy  levels  En.
+[The  quantity  A  is  called  a linear statistic  because  prod-
+ucts  of different  En  do not appear,  but  the  function  a(E)
+may  well  depend  nonlinearly on  E.]  The  Dyson-Mehta
+formula  reads
+
+l  l 
+
+f°
+
+=--z \
+P  7Γ  Jo
+
+where  a(k)  =  J^^dE  elkBa(E)  is the  Fourier  transform
+of  a(E),  and  β  =  1,2,  or  4  depending  on  whether  the
+Hamiltonian ensemble belongs to the orthogonal, unitary,
+or  symplectic symmetry  class.  Equation  (1)  shows  that
+(1)  the  variance  is  independent  of  microscopic parame-
+ters;  and (2) the variance has a universal  l/β  dependence
+on  the  symmetry  parameter  of the  ensemble.
+
+In  a  seminal  1986  paper  [8],  Imry  proposed  to  apply
+RMT  to  the  phenomenon of  universal  conductance  fluc-
+tuations  (UCF), which was  discovered  diagrammatically
+by  Al'tshuler  [9] and  Lee  and  Stone  [10].  Shortly  after-
+wards,  a  RMi  of  quantum  transport  was  developed  by
+Muttalib, Pichard, and Stone  [11].  In this  theory the  role
+of  the  energy  levels  is  played  by  the  transmission  eigen-
+values Tn, or more precisely  by the ratio \n =  (l—Tn}/Tn
+of  reflection  and  transmission  coefficients.  Their  work  is
+reviewed  in Ref.  [12], together  with  a  closely  related  the-
+ory  due  to  Mello,  Pereyra,  and  Kumar  [13].  (For  still
+another  approach,  see  Ref.  [14].)  Good  agreement  was
+obtained  with  the  diagrammatic  theory  of  UCF. How-
+ever,  it  could  not  be  shown  that  the  Universality  of  the
+fluctuations  is  generic  for  arbitrary  linear  statistics  on
+the  transmission  eigenvalues.  In  particular,  no formula
+
+with  the  generality  of  the  Dyson-Mehta  theorem  could
+be  derived.  The  lack  of  such  a  general  theory  is  being
+feit  especially  now that  mesoscopic  fluctuations  in trans-
+port  properties  other  than  the  conductance  (both in con-
+ductors  and  superconductors)  have  become  of  interest
+[15-17].  The  obstacle  which  prevents  a  straightforward
+generalization  of  the  Dyson-Mehta  formula  was  clearly
+identified  by  Stone  et  al.  [12]:  The  correlation  functions
+in  the  RMT  of  quantum  transport  are  not  translation-
+ally invariant,  due to the  positivity  constraint  on λ.  This
+constraint  λ  >  0  follows  directly  from  unitarity  of  the
+scattering  matrix.  In contrast,  the  correlation  functions
+in the  RMT  of energy  levels  are  translationally  invariant
+over  the  energy  ränge of interest.
+
+Here  we wish  to  announce  that  one can overcome  this
+obstacle towards the  establishment of Universality  in  the
+random-matrix theory of quantum transport.
+
+The  starting  point  of  our  analysis  is  the  probability
+
+(1)
+
+distribution  [11]
+
+P({Xn})  = Z'1  exp[-ß-H({Xn}}],
+
+(2)
+
+i<3
+
+where  Z  is  a  normalization  constant.  The  variables  Xn
+(n  = l, 2, . . . N)  are related to the transmission  eigenval-
+ues Tn by Tn  — (l + A„)~1.  The T„ are the eigenvalues of
+the matrix product  ttf  , where t is the NxN  transmission
+matrix of the  conductor  (N  being  the  number of scatter-
+ing  channels).  Since  λ  is  in  one-to-one  correspondence
+with  T,  we  will  call  the  λ  also  transmission  eigenvalues.
+As  mentioned,  Xn  > 0 because  0 < Tn  < 1.  The param-
+eter  β  equals  2  if  time-reversal  symmetry  is  broken  (by
+a  magnetic  field).  Otherwise,  β  equals  l  in the  absence
+and  4  in  the  presence of  strong  spin-orbit  scattering.
+
+The  probability  distribution  (2)  has  the  form  of  a
+Gibbs distribution, with the symmetry  parameter  β  play-
+ing  the  role  of  inverse  temperature,  and  the  "Hamilto-
+nian"  Ή  containing  a  logarithmic  repulsive  interaction
+plus a confining  potential  V.  The function  V (λ) is chosen
+such  that  P  yields  the  required  average  eigenvalue den-
+sity  (which  depends  on the  sample  size  and  the  degree
+
+©  1993 The  American  Physical  Society
+
+1155
+
+VOLUME  70,  NUMBER  8
+
+P H Y S I C AL  R E V I EW  LEITERS
+
+22  FEBRUARY  1993
+
+of  disorder).  Note that  V  may  be  also  a  function  of  ß.
+The logarithmic interaction has a fundamental  geometric
+origin: It is the  Jacobian associated with the  transforma-
+tion  from  the  space  of scattering  (or  transfer)  matrices
+to  the  smaller  space of transmission  eigenvalues  [11-13].
+The  form  (2) for the  probability distribution  is based  on
+(a)  an  isotropy  assumption,  which  implies  that  flux  in-
+cident  in  one  scattering  channel  is,  on  average,  equally
+distributed among all outgoing channels; and  (b) a  max-
+imum  entropy  hypothesis,  which  yields  (2)  äs  the  least
+restrictive  distribution  consistent  with  a  given  average
+eigenvalue  density.  Assumption  (a) requires a  conductor
+much  longer  than  wide,  i.e.,  the  quasi-one-dimensional
+limit.  Assumption  (b)  has  been  justified  by  compari-
+son with  numerical simulations  [11,12],  but  there exists
+no  rigorous  proof.  Indeed, it  is conceivable that  the  true
+eigenvalue  distribution P({Xn})  cannot be fully described
+by  a  one-body  potential  V(X)  plus  Jacobian,  äs  in  Eq.
+(2),  but  that  it  contains  additional  many-body  poten-
+tials.  These would  modify  the  logarithmic interaction of
+the  λ.  We emphasize this  because one of the implications
+of our  analysis  will be that  Eq.  (2) is  not  rigorously  valid
+—  although  the  error  is quite  small.
+
+We  consider an observable  A  which is a linear  statistic
+
+on  the  λ,  i.e.,
+
+N
+
+n=l
+
+(3)
+
+(5)
+
+To  find  the  variance  va,rA  =  (A2)  — (A)2  we  need  the
+two-point  correlation  function  K2(X,  λ'),  defined  by
+
+Here  p(X)  =  Χ)η<$(λ  — λη)  is  the  microscopic eigenvalue
+density,  and the  brackets  (· · ·) indicate  the  average with
+distribution  P({Xn}).  The  mean  density  is
+
+=
+
+w ;;
+
+Once the  correlation  function  KZ  is  known,  the  variance
+of  the  linear statistic  (3)  follows  from
+
+var A  ==  -  f  dX f 
+JQ
+
+Jo 
+
+dX'a(X)a(X')K2(X,X'}.
+
+(6)
+
+Our method is to relate the correlation function  to a  func-
+tional derivative  of the  eigenvalue density  with  respect  to
+V,  and  then  to  evaluate  this  functional  derivative  in  the
+limit  N  —>  oo.  A  similar  line  of  reasoning  was  used  by
+Politzer  [18], for a different  purpose  (viz., to show that  A
+has  a  Gaussian  distribution).  We  discuss  the  two  steps
+of  our  method  separately.
+
+(1)  The  functional  derivative  of  (p(X))  with  respect
+to  V(Ä')  consists  of  two  terms:  Differentiation  of
+the  numerator  in  Eq.  (5)  gives  —ß(p(X)p(X')), 
+since
+6H/6V(X)  =  p(X).  Differentiation  of  the  denominator
+gives  ß(p(X))(p(X')). 
+
+The  two terms together  yield
+
+1156
+
+6{PW}
+
+Substitution  into Eq.  (6) then  gives
+
+(7)
+
+(8)
+
+This relationship between the variance of a linear statistic
+and  the  functional  derivative of the  density of transmis-
+sion  eigenvalues is an  exact  consequence of the  probabil-
+ity  distribution  (2).
+
+(2)  To  evaluate  the  functional  derivative  (7)  we  must
+know  how the  density of transmission eigenvalues  (p) de-
+pends on the  potential  V  in the  Hamiltonian  (2).  There
+exists a one-to-one relationship between these two  quan-
+tities,  because  V  is assumed to  be a one-body potential.
+For large N  the  relationship is given  by the  integral equa-
+tion  [4, 19]
+
+άλ'  (p(X'))  In |λ -  λ'  +
+
+= V  + c.
+
+(9)
+
+Ja
+
+The  constant  c  is  to  be  determined  from  the normaliza-
+tion  condition  /  dX  (p)  — N.  The  second  term  on  the
+left-hand  side  of  Eq.  (9)  is  of  order  ./V"1  In N  relative  to
+the  first,  and  terms  of  still  higher  order  in  l/N  are  ne-
+glected.  To  calculate  the  two-point  correlation  function
+(7)  in leading  order  it  is  sufficient  to  retain  only the  first
+term,  so that  we  can work  with  the  linear  integral  equa-
+tion
+
+dX'  (p(X'))  In |λ -  λ'| = V(A) + c.
+
+(10)
+
+Equation  (10)  has  the  intuitive  "mean-field"  Interpreta-
+tion  (originally due to Wigner) that the  "charge  density"
+(p)  adjusts  itself  to  the  "'external  potential"  V  in  such  a
+way  that  the  total  force  on  any  charge  λ  vanishes  [12].
+The  more  accurate  Eq.  (9)  shows  that,  in  fact,  Eq.  (10)
+is  the  leading  term  in a l /N  expansion.
+
+Equations  (8)  and  (10)  have  two  immediate  implica-
+tions  for the  universality  of the variance  of a linear  statis-
+tic  on  the  transmission  eigenvalues:  (1)  Equation  (10)
+is  a  linear  relation  between  (p)  and  V,  and  hence  the
+functional  derivative  S(p)/6V 
+is  independent  of  V,  Since
+all  microscopic parameters  enter  via  the  potential  V(X),
+this  implies that  the  variance  (8)  is  independent  of  mi-
+croscopic  parameters. 
+(2)  The  kernel  in  Eq.  (10)  does
+not  contain ß, and  hence  the  variance  (8) has a  universal
+l/β  dependence  on the  symmetry  parameter.  This con-
+clusion  holds  irrespective  of  any  ß  dependence  of  V (λ).
+If  one  is  only  interested  in  the  universality  of  the  meso-
+scopic  fluctuations,  one  can  stop  here.  To  calculate  the
+numerical value of var A  requires a  little more work.  The
+integral  equation  (10)  can  be  solved  by  Meilin  transfor-
+mation, which yields the  functional derivative  δ (p) /6V  äs
+the  solving  kernel.  Here  we only  give  the  results;  math-
+ematical details of the  calculation  will be  published  else-
+where  [20].
+
+VOLUME  70,  NUMBER  8
+
+P H Y S I C AL  R E V I EW  L E I T E RS
+
+22  FEBRUARY 1993
+
+The two-point correlation function  KI  (λ
+
+, λ') which fol- 
+
+°·1
+
+1  "l 
+
+' 
+
+' 
+
+ι
+
+K 
+
+2( X , X)
+
+'1
+
+1 
+
+d2
+
+1~
+TT2ß  d(x  -  X')2  '"
+
+tanh-
+
+χ  — χ'
+
+4
+
+.  (12) 
+
+°
+
+10 
+
+, 
+
+, | Ι 
+
+, 
+
+ι 
+
+ι 
+
+ι  ι  ,  ,  , Ι 
+
+| 
+
+lows  from  Eqs.
+
+(7)  and  (10)  is
+
+In
+
+= 
+Κι(Χ,Χ')  -
+
+ν/λ -  ν/λ'
+ν/λ + ν/λ'
+
+1 9 0,
+π2/?  <9λ βλ'
+is  obviously  not  translationally
+a  translationally  invariant
+kernel
+=  ex
+
+This  function
+ant.  However,
+obtained  by  the  transformation  λ
+ex+x'K2(ex,ex'
+
+).  The  result  is
+
+mvan- 
+can  be 
+K2(x,x')  =
+
+(11) 
+ν  ; 
+
+Substituting  Eq. (11)  into  Eq.  (6), and  carrying  out  two
+partial  integrations,  we find the  formula  [21]
+
+ι  ι 
+
+r°°
+
+=-- 
+
+β  7Γ
+
+r°°
+\  dX'
+Jo
+
+In
+
+d\
+
+ν/λ -  ν/λ'
+ν/λ + ν/λ'
+
+ώ(λ) ώ(λ')
+
+dX 
+
+d\' 
+
+'
+
+(13)
+
+In  an  equivalent  Fourier  representation,  we  can write
+
+var A = i  -^  /  dfc  |ö(fc)|2 
+
+fctanh(Trfc). 
+
+(14)
+
+P π  7ο
+
+Here ä(fc)  is the  Mellin transform  of α(λ), i.e., the Fourier
+transform  with  respect  to  χ  = In λ:
+
+ä(k)  =  ΓάΧΧίΙι-1α(Χ)  = 
+
+f°°dxelkxa(ex).
+
+(15)
+
+7θ 
+
+V-oo
+
+The  kernel  in  Eq.  (14)  is  the  Fourier  transform  with  re-
+spect  to  χ  — x'  of  KI(X,X').  Equation  (14) is  for  the
+quantum  transport  problem what  the  Dyson-Mehta for-
+mula  (1) was  for  the  statistics  of energy  levels.
+
+As  an  independent  check of the  validity  of our  key  re-
+sult, we have compared  Eq.  (14) with an exactly  solvable
+model.  This is the  Laguerre ensemble, defined  by  Eq. (2)
+with  β  =  2  and  V(X)  =  %X  -  ^αΐηλ.  The  parameter
+a  >  — l  is arbitrary.  The correlation  function  for this en-
+semble is known exactly,  in terms  of generalized  Laguerre
+polynomials  [12, 22].  In Fig.  l  we  show  the  comparison
+for  the  variance  of  the  conductance.  The  conductance
+G  is  a  linear  statistic  on  the  transmission  eigenvalues,
+according  to  the  Landauer  formula
+
+G/GO =
+
+l
+
+(16)
+
+Here  GQ  =  2e2/h  is  the  conductance  quantum.  The
+Mellin  transform  of  α(λ)  =  (l  +  λ)"1  is  ä(k)  =
+—ίπ/  sinh(wk}.  Substitution  into Eq.  (14)  yields the  vari-
+ance
+
+var
+
+2fc
+
+-1  Γ
+
+Λ dk
+
+sinh(2^) 
+
+8Λ
+
+3-1
+
+(17)
+
+For  the  Laguerre  ensemble  (which  has  β  =  2)  we  would
+thus expect  from  our variance formula  that var (G/Go)  =
+0.0625 for N  ^>  l,  independent of N  and of the  parameter
+α  (which  in this  model plays  the  role  of  a  "microscopic"
+
+-  Β  ögg  Β  ö  β  "  -
+-  Δ Δ
+
+Δ 
+
+ν 
+
+'
+
+~
+
+0
+
+^·
+>
+
+Δ  α-2
+χ  «— 0 5
+
+Ο  α = -0.5  -
+
+|
+
+1000
+
+100 
+
+Ν
+
+FIG.  1.  Variance  of the  conductance  G  (in units  of Go =
+2e2/h)  äs a function  of the  number  of channels N.  The  data
+points  are  obtained  by  Integration  of  the  exact  correlation
+function  for  the  generalized  Laguerre  ensemble  [12, 22], for
+various values of the microscopic parameter  a.  The  estimated
+error  in the  numerical Integration  is ±0.001.  (For a  =  —0.5
+we could  only integrate  with  the  required  accuracy  for N  up
+to  25.)  The  horizontal  line  at  0.0625 is  the  α  independent
+value predicted  in  the  limit  N  —> oo  by  Eq. (14).
+
+parameter).  As  one can see in Fig.  l, this  is indeed  what
+we  find  (within  numerical  accuracy)  from  Integration  of
+the  exact  correlation  function.
+
+The  coefficient |  in Eq. (17) is  close to but not  pre-
+
+cisely identical to the established value ^ for a quasi-one-
+dimensional  conductor  [10,23].  The  smallness of the dif-
+ference  explains  why  it was  not noticed  previously.  From
+a practical  point of view, the difference  is not really signif-
+icant,  but  conceptually  it  has  the  important  implication
+that  the  RMT based  on the  probability  distribution  (2)
+is  not  rigorously  equivalent  to  the  diagrammatic  theory
+of  UCF  [24],  which  we  hold  to  be  exact.  The  conclu-
+sion is that the interaction  between  the λ  is not  precisely
+logarithmic.
+
+The  variance  formula  (14) can  be  readily  applied  to
+other  transport  properties  which are linear  statistics.  As
+an  Illustration,  we  briefly  discuss  some  examples  which
+have  previously  been  studied  by  other  methods  [15-17].
+The  first  example  is  the  shot-noise  power  P  of a  phase-
+coherent  conductor, given  by  [25]
+
+λη) 2'
+
+(18)
+
+Here  P0  =  2e|C/|G0,  with  U  the  applied  voltage.  The
+variance  formula  (14)  yields  var  (P/  PO)  =  eiß~1·  The
+second  example  is the  conductance  GN$ of a  disordered
+microbridge  between  a normal  (N) and  a  superconduct-
+ing  (S)  reservoir,  which  is  related  to  the  transmission
+eigenvalues in the  normal state by [26]
+
+This expression  holds only in zero magnetic field and for
+spin-independent  scattering,  i.e., for  β  =  1.  Applying
+
+1157
+
+VOLUME  70,  NUMBER  8
+
+P H Y S I C AL  R E V I EW  L E I T E RS
+
+22  FEBRUARY  1993
+
+Eq.  (14)  we  obtain  var(GNs/Go)  =  ^,  where  we  have
+set  β  equal  to  1.  For broken  time-reversal symmetry  the
+conductance  of  the  NS junction  is  not  a  linear  statistic
+[26];  hence  no  l/β  dependence  of  the  variance  is  to  be
+expected.  The  third  example  is  the  supercurrent  phase
+relationship  Ι(φ]  of  a  point-contact  Josephson  junction,
+which  for β  = l  is  given  by  [15]
+
+— V
+
+(20)
+
+Δ  being the  energy  gap  in the  bulk  superconductor.  Ap-
+plication  of the  variance formula  (14)  to  the  linear  statis-
+tic  (20)  yields  a  rms  value  which  increases  linearly  at
+small  φ and  saturates  at  rms/(π)  = π"1 βΔ/ft  äs  φ ap-
+proaches  π.  For  the  critical  current  Ic  =  max/(<?!>)  we
+find  [27]  rms Ic  = 0.29  βΔ/ft.
+
+We have checked  for all these transport  properties that
+the variances predicted by Eq.  (14)  agree with the  numer-
+ical  results  from  the  Laguerre  ensemble.
+
+In conclusion, we have derived the  analog of the  Dyson-
+Mehta  theorem  [7] for  the  quantum  transport  problem.
+The formula  obtained  demonstrates that the  universality
+which  was  the  hallmark  of  the  phenomenon  of  "univer-
+sal  conductance  fluctuations"  [9,10]  is  generic  for  linear
+statistics  on  the  transmission  eigenvalues.  This  univer-
+sality was  anticipated  [8]  from  the  random-matrix theory
+of  energy  levels,  but  could  not  previously  be  established
+because  of  the  absence  of  translational  invariance  of  the
+correlation  function  of transmission  coefficients  (originat-
+ing  from  the  unitarity  of  the  scattering  matrix)  [12].  Fi-
+nally, our analysis has revealed a small but  real  numerical
+discrepancy  between  the  random-matrix  theory  [l 1] and
+the  diagrammatic  calculation  [9,10],  which  implies  that
+the  interaction  between  the  λ  eigenvalues  is  not  precisely
+logarithmic.
+
+I  have  benefited  from  discussions  with  R.  A.  Jalabert,
+M.  J.  M de  Jong,  J.  M.  J.  van  Leeuwen,  B.  Rejaei,  and
+A.  D. Stone.  I thank  R.  A.  Jalabert  for helping  me with
+the  numerical  integrations.  This  research  was  supported
+by  the  Dutch  Science  Foundation  NWO/FOM.
+
+[1]  M.  L.  Mehta,  Random  Matrices  (Academic, New York,
+
+1991),  2nd  ed.
+
+[2]  T.  A.  Brody,  J.  Flores,  J.  B.  Prench,  P.  A.  Mello,  A.
+Pandey,  and  S.  S.  M.  Wong,  Rev.  Mod.  Phys.  53,  385
+(1981).
+
+[3]  D. Fox and  P.  B.  Kahn, Phys.  Rev.  134,  B1151  (1964).
+[4]  F.  J.  Dyson,  J.  Math. Phys.  13,  90  (1972).
+[5]  A.  Pandey, Ann. Phys.  (N.Y.)  134,  110  (1981).
+[6]  R.  D.  Ramien,  H.  D.  Politzer, and  M.  B.  Wise,  Phys.
+
+Rev.  Lett.  60,  1995  (1988).
+
+[7]  F.  J.  Dyson  and  M.  L.  Mehta,  J.  Math.  Phys.  4,  701
+
+[8]  Y.  Imry,  Europhys.  Lett.  l,  249  (1986).
+[9]  B.  L.  Al'tshuler,  Pis'ma  Zh.  Eksp.  Teor.  Fiz.  41,  530
+
+(1985)  [JETP  Lett.  41,  648  (1985)].
+
+[10]  P.  A.  Lee  and  A.  D.  Stone,  Phys.  Rev.  Lett.  55,  1622
+
+(1985).
+
+[11]  K.  A.  Muttalib,  J.-L.  Pichard,  and  A.  D.  Stone,  Phys.
+
+Rev.  Lett.  59,  2475 (1987).
+
+[12]  A.  D.  Stone,  P.  A.  Mello,  K.  A.  Muttalib,  and  J.-L.
+Pichard,  in  Mesoscopic  Phenomena  in  Solids,  edited  by
+B.  L.  Al'tshuler,  P.  A.  Lee,  and  R.  A.  Webb  (North-
+Holland,  Amsterdam, 1991).
+
+[13]  P.  A.  Mello,  P.  Pereyra,  and  N.  Kumar,  Ann.  Phys.
+
+(N.Y.)  181,  290 (1988).
+
+[14]  B.  L. Al'tshuler and  B. I. Shklovsku,  Zh. Eksp.  Teor. Fiz.
+
+91,  220 (1986)  [Sov.  Phys.  JETP  64,  127 (1986)].
+
+[15]  C.  W.  J.  Beenakker,  Phys.  Rev.  Lett.  67,  3836  (1991);
+
+[16]  Y.  Takane  and  H. Ebisawa,  J.  Phys.  Soc.  Jpn.  60,  3130
+
+[17]  M. J.  M. de Jong  and  C. W.  J.  Beenakker, Phys.  Rev. B
+
+68,  1442(E)  (1992).
+
+(1991);  61,  2858  (1992).
+
+46,  13400  (1992).
+
+[18]  H. D. Politzer, Phys.  Rev.  B 40,  11917  (1989).
+[19]  In Dyson's derivation  [4] of Eq.  (9), all  integrals run  from
+—oo  to  +00.  In our  case,  the  Integration ränge  is  from  0
+to  oo.  We  have  checked  that  this  positivity  constraint
+on  λ  does  not  introduce any  extra  terms  in  the  integral
+equation,  to  the  order  considered.
+[20]  C. W.  J.  Beenakker  (unpublished).
+[21]  Equation  (13)  requires that α(λ) be  differentiable.  In par-
+ticular, var A  diverges  logarithmically for a step  function,
+α (λ)  = 9(\c  — λ).  For such  artificial  linear  statistics  the
+variance  does  not  have  a  universal  N  —>  oo  limit,  but
+increases  äs  In N  for  large 7V [7].  All physical properties,
+however,  are  smooth  (differentiable)  functions  of  λ.
+
+[22]  K.  Slevin,  J.-L.  Pichard,  and  P.  A.  Mello,  Europhys.
+Lett.  16,  649  (1991).  The  "two-level  cluster  function"
+Τ·2  considered  in  this  reference  is  related  to  the  "two-
+point  correlation  function"  KZ  of  the  present  paper  by
+Κ2(λ,  λ') = Γ2(λ, λ') -  (ρ(λ))<5(λ -  λ').
+
+[23]  Ρ. Α. Mello, Phys. Rev. Lett. 60,  1089  (1988);  P. A. Mello
+
+and  A.  D. Stone,  Phys.  Rev. B  44,  3559  (1991).
+
+Muttalib,  Pichard,  and  Stone  [11] (the  so-called  "global
+approach")  is  not  precisely  equivalent  to  the  "local  ap-
+proacä''  of  Mello  et  al.  [13, 23].  Previous  work  by  Mello
+and  Pichard  [Phys.  Rev.  B  40,  5276  (1989)]  argues  for
+(he  equivalence  of the two theories. Their argument  starts
+from  a  one-body  potential  V(X),  i.e., it  assumes that  the
+interaction  between  the  λ  is  precisely  logarithmic. We
+now  know that  this  is  an approximation (albeit  an excel-
+lent one).
+
+[25]  M. Büttiker,  Phys.  Rev.  Lett.  65,  2901  (1990).
+[26]  C. W.  J.  Beenakker,  Phys.  Rev.  B  46,  12841  (1992).
+[27]  We  have  used that  for  7V  —>  oo, var/c  =  var/(<)i>c),  where
+4>c  =  1-97  is  the  phase  difference  at  which  the  ensem-
+ble  average  {/(<£)}  reaches  its  maximum.  See  C.  W.  J.
+Beenakker,  in  Transport  Phenomena  in  Mesoscopic  Sys-
+tems,  edited  by  H.  Fukuyama  and  T.  Ando  (Springer,
+Berlin,  1992).
+
+[24]  A second  implication  of |  ^  -|  is that  the RMT  of
+
+(1963).
+
+158
+
+
