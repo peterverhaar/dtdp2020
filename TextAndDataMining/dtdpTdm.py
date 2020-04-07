@@ -199,7 +199,7 @@ def tokenise2( text ):
     return tokens
 
 def tokenise( text ):
-    return word_tokenize( text )
+    return word_tokenize( text.lower() )
 
 
 def averageNumberOfSyllables(file):
