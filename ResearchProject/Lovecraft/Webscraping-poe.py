@@ -24,37 +24,45 @@ for l in links:
 
 
     if l.get("href") is not None:
-        label = str( l.string )
-        if re.search( r', the$' , label , re.IGNORECASE ):
-            label = 'The ' + label
-            label = re.sub( r', the$' , '' , label )
-        if re.search( r', a$' ,  label , re.IGNORECASE ):
-            label = 'A ' + label
-            label = re.sub( r', a$' , '' , label )
 
-        label = re.sub( r'[,.\'\(\)\-]' , '' , str(label) )
-        label = re.sub( '\s+' , '' , label )
         target = l.get("href")
         if not( re.search( r'^http' , target ) ):
 
             textUrl = baseUrl + target
 
             if re.search( '.' , textUrl ):
-                print(f"{ target }: { label }")
+
 
                 response = requests.get( textUrl )
                 soup = BeautifulSoup( response.text ,"lxml")
                 body = soup.find("body")
                 title = soup.find_all( "title")
                 storyTitle = title[0].string.strip()
-                print(storyTitle)
+                fileName = re.sub( r'[,.\'\(\)\-]' , '' , str(storyTitle) )
+                fileName = fileName.lower().title()
+                fileName = re.sub( '\s+' , '' , fileName )
+                print(f"{ storyTitle }: { target }")
 
                 fullText = body.get_text()
                 fullText = re.sub( 'E.A. Poe' , 'Edgar Allan Poe' , fullText)
                 fullText = fullText.strip()
-                fullText = fullText[ fullText.index( storyTitle ) + len(storyTitle) : ].strip()
-                fullText = re.sub( r'Last modified.*$' , '' , fullText)
 
-                out = open( join( 'Corpus' , label.lower() ) + '.txt' , 'w' , encoding = 'utf-8' )
+                flag = 0
+                lines = re.split( r'\n' , fullText )
+                fullText = ''
+                for line in lines:
+
+                    if re.search( r'(<!\-\-)|(\/\/\-\->)|(google_)' , line ):
+                        line = ''
+
+                    if re.search( r'^{}$'.format(storyTitle) , line.strip() , re.IGNORECASE ):
+                        flag = 1
+                    if re.search( r'Last modified' , line.strip() ):
+                        flag = 0
+                    if flag == 1 and len(line) > 0:
+                        fullText += line + ' \n'
+                fullText = fullText[ fullText.index(storyTitle) + len(storyTitle) : ]
+
+                out = open( join( 'Corpus' , fileName ) + '.txt' , 'w' , encoding = 'utf-8' )
                 out.write( fullText.strip() )
                 out.close()
